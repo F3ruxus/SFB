@@ -62,7 +62,7 @@ print(word * 15)
 # "Whitecaps on the bay:
 # A broken signboard banging
 # In the April wind."
-# — Richard Wright, collected in Haiku: This Other World, 1998
+# — Richard Wright, collected in Haiku: This Other World, 1998 wrq2
 text = "'Whitecaps on the bay: A broken signboard banging In the April wind.' — Richard Wright, collected in Haiku: This Other World, 1998"
 print(text.find("beach"))  # if it prints -1, it's not found
 
@@ -70,7 +70,7 @@ booolean = "beach" in text.lower()
 print(booolean)
 
 # String Properties Practice #3
-# Check the Python Documentation to find the description of the len() function. Then, display on the screen the length (in number of characters) of the word electroencephalographist.
+# Check the Python Documentation to find the description of the len() function. Then, display on the screen the length (in number of characters) of the word electroencephalographist . 
 
 text2 = " electroencephalographist."
 print(len(text2))
